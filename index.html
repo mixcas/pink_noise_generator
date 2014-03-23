@@ -7,8 +7,13 @@
     <script src="script.js"></script>
 
   <body>
-    <button id="playPink">Play</button>
-    <button id="stopPink">Stop</button>
+    <div>
+      <label for="quality">Quality: </label><input type="range" name="quality" id="quality" class="quality" min="0" max="6" value="3" />
+    </div>
+    <canvas id="analyserCanvas"></canvas>
+    <div>
+      <button id="playPink">Play/Stop</button>
+    </div>
   </body>
 
 </html>
